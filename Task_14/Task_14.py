@@ -1,7 +1,6 @@
 # Задайте натуральное число N. Напишите программу,
 # которая составит список простых множителей числа N.
 
-
 def find_factors_number(number) -> list:
     list_factors_number = []
     for i in range(1, number + 1):
